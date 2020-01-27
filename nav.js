@@ -1,3 +1,5 @@
+// Based on: https://stackoverflow.com/questions/44502243/single-navigation-bar-across-website
+
 var html =
   '<ul>\
 <li><a href="index.html">Home</a></li>\
