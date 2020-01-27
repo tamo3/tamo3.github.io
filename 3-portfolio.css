@@ -10,7 +10,7 @@ body {
 }
 body::after {
   /* background image */
-  content: "";
+  content: '';
   background: url(https://lh3.googleusercontent.com/dZ3IwFAITgW_pkiqqpC9kbnxGcL7GnKK79yFQnDX8yJ759tzIwHwIpWpn6oCUPbiPJz52-JeOVcqC_zXkwDJ_n_qj2t--0mTlpuchT_29DqBQ0One2M2jQfLo8IKmr2bBT93xVh559o=w1034-h775-no);
   opacity: 0.2;
   top: 0;
@@ -20,6 +20,19 @@ body::after {
   position: fixed;
   z-index: -1;
   background-size: cover;
+}
+nav li {
+  list-style-type: none;
+  margin: 5px;
+  padding: 0;
+  width: 200px;
+  background-color: green;
+}
+nav a {
+  padding: 5px;
+  display: block;
+  background-color: #f1f1f1;
+  text-decoration: none;
 }
 
 h1,
