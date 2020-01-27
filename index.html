@@ -1,1 +1,58 @@
-"hello World" 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="1-form.css" />
+  </head>
+
+  <body>
+    <!-- add your code below -->
+    <div class="form">
+      <form>
+        <fieldset>
+          <!-- Here, I use label as "non-nested" style -->
+          <div id="form-title"><strong>CONTACT FORM</strong></div>
+          <div class="texts">
+            <label for="Name" class="aligned">Name</label>
+            <input class="rounded" type="text" id="Name" name="Name" /><br />
+            <label for="Email" class="aligned">Email</label>
+            <input class="rounded" type="email" id="Email" name="Email" /><br />
+          </div>
+          <br />
+          <input
+            type="radio"
+            name="type"
+            id="Undergraduate"
+            value="Undergraduate"
+            checked
+          /><label for="Undergraduate">Undergraduate</label><br />
+          <input
+            type="radio"
+            name="type"
+            id="Graduate"
+            value="Graduate"
+          /><label for="Graduate">Graduate</label><br />
+          <input type="radio" name="type" id="Other" value="Other" /><label
+            for="Other"
+            >Other</label
+          ><br />
+          <br />
+          <label for="Comment">Any omments?<br /></label>
+          <textarea
+            class="rounded"
+            id="Comment"
+            name="Comment"
+            rows="10"
+            cols="40"
+          ></textarea
+          ><br /><br />
+          <input type="submit" value="Submit" id="Submit" />
+          <input type="button" value="Reset" id="Reset" />
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
