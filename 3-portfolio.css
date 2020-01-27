@@ -1,14 +1,15 @@
 * {
   font-family: sans-serif;
   box-sizing: border-box;
- }
+}
 
 body {
   justify-content: center;
   align-items: center;
   color: black;
 }
-body::after { /* background image */
+body::after {
+  /* background image */
   content: "";
   background: url(https://lh3.googleusercontent.com/dZ3IwFAITgW_pkiqqpC9kbnxGcL7GnKK79yFQnDX8yJ759tzIwHwIpWpn6oCUPbiPJz52-JeOVcqC_zXkwDJ_n_qj2t--0mTlpuchT_29DqBQ0One2M2jQfLo8IKmr2bBT93xVh559o=w1034-h775-no);
   opacity: 0.2;
@@ -18,10 +19,12 @@ body::after { /* background image */
   right: 0;
   position: fixed;
   z-index: -1;
-  background-size: cover
+  background-size: cover;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
   font-family: cursive;
 }
 
@@ -29,7 +32,7 @@ h1,h2,h3 {
   width: 270px;
   line-height: 2em;
   display: inline-flex;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .likes > li {
@@ -62,7 +65,6 @@ a:hover {
   opacity: 0.6;
 }
 
-
 footer {
   font-family: cursive;
   position: relative;
@@ -74,5 +76,5 @@ footer {
   text-align: center;
   border-top-width: 1px;
   border-top-style: solid;
-  border-top-color: rgba(200,200,200,0.5);
+  border-top-color: rgba(200, 200, 200, 0.5);
 }
