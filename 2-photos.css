@@ -6,6 +6,20 @@
   background-color: pink;
 }
  */
+ body {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg"); */
+  background-image: url(https://lh3.googleusercontent.com/dZ3IwFAITgW_pkiqqpC9kbnxGcL7GnKK79yFQnDX8yJ759tzIwHwIpWpn6oCUPbiPJz52-JeOVcqC_zXkwDJ_n_qj2t--0mTlpuchT_29DqBQ0One2M2jQfLo8IKmr2bBT93xVh559o=w1034-h775-no);
+  /* Full height */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
  .images {
   display: flex;
   flex-flow: wrap;
