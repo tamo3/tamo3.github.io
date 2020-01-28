@@ -1,155 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="3-portfolio.css" />
-    <title>TT - Portfolio</title>
-  </head>
 
-  <body>
-    <nav id="nav"></nav>
-    <script src="nav.js" id="nav-bar"></script>
-    <div id="content">
-      <header>
-        <h1>Tamotsu Tanabe</h1>
-      </header>
-      <div>
-        <h2>About me</h2>
-        <p>
-          My name is Tamotsu Tanabe. Born in Tokyo Japan, moved to Portland OR in late 20th century. I have 2 kids and a dog.
-        </p>
-      </div>
-      <div>
-        <h3>Professional Experiences</h3>
-        <ul class="jobs">
-          <!-- title doesn't seems to be supported by HTML5 but easiest to display tool tips -->
-          <li>
-            <a class="job job1" href="https://sightlineapplications.com/" target="-blank" title="my current job">SightLine Applications</a>
-            On board processing
-          </li>
-          <li>
-            <a
-              class="job job2"
-              href="https://www.cognex.com/products/machine-vision/2d-machine-vision-systems/in-sight-5705-series"
-              target="-blank"
-              title="my former job & product"
-              >Cognex In-Sight</a
-            >
-            Machine Vision system
-          </li>
-          <li>
-            <a
-              class="job job3"
-              href="https://en.wikipedia.org/wiki/Digital_Equipment_Corporation"
-              target="-blank"
-              title="The first company I worked for is now defunt!"
-              >Digital Equipment Corporation (DEC)</a
-            >
-            The 2nd largest Computer Company at that time
-          </li>
-        </ul>
-        <br />
-      </div>
-      <div>
-        <h3>Things I like</h3>
-        <ul class="likes">
-          <li>Traveling</li>
-          <li>
-            Playing the piano
-            <a href="https://www.youtube.com/watch?v=akAH1uee760">(YouTube)</a>
-          </li>
-          <li>
-            Taking classes
-            <a href="https://www.pdx.edu/">(Portland State University)</a>
-          </li>
-        </ul>
-        <br />
-      </div>
-      <div>
-        <h3>My Dog</h3>
-        I like spending time with my dog, <strong>Cookie</strong>. Here are a few pictures of her!<br />
-        <div class="images">
-          <a href="https://lh3.googleusercontent.com/DTTi2dR52yI1IuKG8ojZDEyDGxBoWnqCnv-qJpZYCnUzRNS1ZYnrkPnxGXSul9GRYHY6orI4TqrLjYVQidO1vwJcSp2zgoKmdnDQzfNIMRflFEzuqVkuT8ZYQRfzkyC2ggyGGZp5dd2B3m6kircqcIZIQ83iUs-CEW7MDVdJoK-rfnSMRe2lFLbdaBmpJS3NcZNZNx9biclEzKZAE6TtsaA-iwL-9Fvv9Q-yTogfDY0E9pvUOLL5af4mAtOVUXo8C-jszplsyMBO36dMmIvt4X-4c0ACtbJt0aJa44MVWR9rYARP6QRgurG0kY76hZ_bvQcOiCPDG06XFCqwrAGLVFgN7TBsX7FN08B2Yq3bl9Qwn44UuZB8ZFN7Cxw4uGPfK66FhQzqcBvyD5RG6Ykb0o2SedcjrJoHCVotorLX_XJfziwjJI5ffWfWuBzVdAwIr-A1uPLQ4X0Famgefv20DpGN3i48tsxvJlFgIOJvtMeAN5rOuPmKnVwuFATD7tLXeUhQ7pwxKboo9ldZhy_zgjXLH8GIDKW7YGRuGkwFyfm_rt0a-AsUxuS2CoAToLkWv1SRax9W1zS2n-u2Qa2olJBNxQoEq-JGPRzOKq4xjohz9arwHpQflba5W2RtFOQV7xKeXbv7I2zMfWknz2lCBQzW4oiNhsFnoUI2ZM5Rq-HWwfOjNoq3ZImCcaCLUz9BNF6rG_sEVHzRnPxF0AQlE252Dx7M_l_WnWgGYANcyATwSnwfsw=w937-h1249-no"
-          title="click to enlarge">
-          <img style="width: 100px;"
-            src="https://lh3.googleusercontent.com/DTTi2dR52yI1IuKG8ojZDEyDGxBoWnqCnv-qJpZYCnUzRNS1ZYnrkPnxGXSul9GRYHY6orI4TqrLjYVQidO1vwJcSp2zgoKmdnDQzfNIMRflFEzuqVkuT8ZYQRfzkyC2ggyGGZp5dd2B3m6kircqcIZIQ83iUs-CEW7MDVdJoK-rfnSMRe2lFLbdaBmpJS3NcZNZNx9biclEzKZAE6TtsaA-iwL-9Fvv9Q-yTogfDY0E9pvUOLL5af4mAtOVUXo8C-jszplsyMBO36dMmIvt4X-4c0ACtbJt0aJa44MVWR9rYARP6QRgurG0kY76hZ_bvQcOiCPDG06XFCqwrAGLVFgN7TBsX7FN08B2Yq3bl9Qwn44UuZB8ZFN7Cxw4uGPfK66FhQzqcBvyD5RG6Ykb0o2SedcjrJoHCVotorLX_XJfziwjJI5ffWfWuBzVdAwIr-A1uPLQ4X0Famgefv20DpGN3i48tsxvJlFgIOJvtMeAN5rOuPmKnVwuFATD7tLXeUhQ7pwxKboo9ldZhy_zgjXLH8GIDKW7YGRuGkwFyfm_rt0a-AsUxuS2CoAToLkWv1SRax9W1zS2n-u2Qa2olJBNxQoEq-JGPRzOKq4xjohz9arwHpQflba5W2RtFOQV7xKeXbv7I2zMfWknz2lCBQzW4oiNhsFnoUI2ZM5Rq-HWwfOjNoq3ZImCcaCLUz9BNF6rG_sEVHzRnPxF0AQlE252Dx7M_l_WnWgGYANcyATwSnwfsw=w937-h1249-no"
-            alt="cookie in a park">
-        </a>
-        <a href="https://lh3.googleusercontent.com/9TXoVztNUdk6Ycd5Mt53K0gUzB98ue82hVKDSBwtq72U9diY2LEmJ91nisov7KVVpDzVyQ9wcBTVY1udLezd9PuxKpLep1k8pQAZwo5JIj64PQbd9-RyNOgNENwYBeQIVaMrIj1RL6-LYbuNWfzPrn3HSI7W44TvEEsznDH1BI-ORKh4Kx-K1zIKzKsOnbuCsT_oO86-VV4feuCmoiglYYBljCcF5ELl0R7nOqXy5gNfjss3gmaRHDBhM7jCiKMiA1MscEyED4XH1637tSz5b_icAlAk5EiNRIfga-eMe_OMdQRoaJl7459zE8LwRmcKYg3rOARtUyFOTRZZ9SJqWs1R0ApIDhOvpNb5zRJs6dwJgAnU-CPnR5_IYi0mA4dJL7CAGBPQzCw_AdyBLermLHpKBAItCITEJv-OzilBu0i-3AosWTzv9MiYDzVNesuz88_IvyYeNghyFdfgNhb4-gkh9ggQ5bbui4s2i-VvXbJiwarRsKESNrubbNg8LbMHcHLQxp0QdfrEkYXKkJLn-slvos8R94B1BvvH-xrRyfnAOYOMpgo4hRDjqT_RMZdhuYZOIwDbgAlLCu7D5hExLtFZwWdfs4Zi5JvEFLxt__zdnGxg9cwJIsMV9usfxX3AQu0y_X5t9x0ckiYne7t7N7_hq8TtrCwScoTNzaVyrZpWcVexr7LdAt37un-ahOxUxMCrhNznbvC70ZLpZGCLqX4FrwGUcCWqEAJdznaNXzCxAGD1kw=w903-h1204-no"
-          title="click to enlarge">
-          <img style="width: 100px;"
-            src="https://lh3.googleusercontent.com/9TXoVztNUdk6Ycd5Mt53K0gUzB98ue82hVKDSBwtq72U9diY2LEmJ91nisov7KVVpDzVyQ9wcBTVY1udLezd9PuxKpLep1k8pQAZwo5JIj64PQbd9-RyNOgNENwYBeQIVaMrIj1RL6-LYbuNWfzPrn3HSI7W44TvEEsznDH1BI-ORKh4Kx-K1zIKzKsOnbuCsT_oO86-VV4feuCmoiglYYBljCcF5ELl0R7nOqXy5gNfjss3gmaRHDBhM7jCiKMiA1MscEyED4XH1637tSz5b_icAlAk5EiNRIfga-eMe_OMdQRoaJl7459zE8LwRmcKYg3rOARtUyFOTRZZ9SJqWs1R0ApIDhOvpNb5zRJs6dwJgAnU-CPnR5_IYi0mA4dJL7CAGBPQzCw_AdyBLermLHpKBAItCITEJv-OzilBu0i-3AosWTzv9MiYDzVNesuz88_IvyYeNghyFdfgNhb4-gkh9ggQ5bbui4s2i-VvXbJiwarRsKESNrubbNg8LbMHcHLQxp0QdfrEkYXKkJLn-slvos8R94B1BvvH-xrRyfnAOYOMpgo4hRDjqT_RMZdhuYZOIwDbgAlLCu7D5hExLtFZwWdfs4Zi5JvEFLxt__zdnGxg9cwJIsMV9usfxX3AQu0y_X5t9x0ckiYne7t7N7_hq8TtrCwScoTNzaVyrZpWcVexr7LdAt37un-ahOxUxMCrhNznbvC70ZLpZGCLqX4FrwGUcCWqEAJdznaNXzCxAGD1kw=w903-h1204-no"
-            alt="cookie">
-        </a>
-        <a href="https://lh3.googleusercontent.com/gxAvmBlHpbTXU2ajOfalJKB26ztNba5LyiPQEhFrtqLgD_brLjZ7TiXnmrPUbpjaH1Jyj10Bugt7qn6TW6dFoIIupkngzuGXd1ornZUBPfnrCR7PwRaihYsWEfATLr13xCsOB5vuuYoaYmUXGjgI61xo7pKHMcgxqpZ0_ZAlRI5HZezUph4g4Mc8S9kuwO4r1GPpxxS0__CdEHONICCKuS02JCC5eLqFQpffkQAeGS6LKjIvhVCluCWrHtfkeix0FuaNIj8wSXdiZ8V3X8I5b0Fp7t6nRNueOFmd-chDeYN9D3sQM5XkWAgke9D6cTwfvaZy_wvtrouarMeoYrHNBWfXzOPLZYvYc1qt_4t7P6UGp2QtGH8FAkChwVBifgTe0euKuqm4_Dd63lToIThuGiEOBpkfy4DE93uNyb8LyFpGM6TWPzqgt5CPn9854fz8PU3tZVcoptUqolNavrT17AnYcMO4LGYo2eoW9hfPpuhZo2TrKtSrsDXR86KmdwLHzHYtRwnn2qYcVqft-80kv50wTqMGwdePRHQwflVAkVcU-nYd1BnUfavRuX5pPhcmsd6pXhvGiQ_2sx-xLvC1oIvmaVUKptBWz8joQGVagp0gbzk7pcYTjAtGWLASaT9N7wYOug-kkI0P50r_b4IbGfJRavevt0GYWiaL8ezV-Rs6xiAzp7Fe1ndDEzYxzZMkCkevEiizxIRr9Wv0oZP3yVapBFcndw_QPNnkfgEi1h60IW5Y6A=w903-h1204-no"
-          title="click to enlarge">
-          <img style="width: 100px;"
-            src="https://lh3.googleusercontent.com/gxAvmBlHpbTXU2ajOfalJKB26ztNba5LyiPQEhFrtqLgD_brLjZ7TiXnmrPUbpjaH1Jyj10Bugt7qn6TW6dFoIIupkngzuGXd1ornZUBPfnrCR7PwRaihYsWEfATLr13xCsOB5vuuYoaYmUXGjgI61xo7pKHMcgxqpZ0_ZAlRI5HZezUph4g4Mc8S9kuwO4r1GPpxxS0__CdEHONICCKuS02JCC5eLqFQpffkQAeGS6LKjIvhVCluCWrHtfkeix0FuaNIj8wSXdiZ8V3X8I5b0Fp7t6nRNueOFmd-chDeYN9D3sQM5XkWAgke9D6cTwfvaZy_wvtrouarMeoYrHNBWfXzOPLZYvYc1qt_4t7P6UGp2QtGH8FAkChwVBifgTe0euKuqm4_Dd63lToIThuGiEOBpkfy4DE93uNyb8LyFpGM6TWPzqgt5CPn9854fz8PU3tZVcoptUqolNavrT17AnYcMO4LGYo2eoW9hfPpuhZo2TrKtSrsDXR86KmdwLHzHYtRwnn2qYcVqft-80kv50wTqMGwdePRHQwflVAkVcU-nYd1BnUfavRuX5pPhcmsd6pXhvGiQ_2sx-xLvC1oIvmaVUKptBWz8joQGVagp0gbzk7pcYTjAtGWLASaT9N7wYOug-kkI0P50r_b4IbGfJRavevt0GYWiaL8ezV-Rs6xiAzp7Fe1ndDEzYxzZMkCkevEiizxIRr9Wv0oZP3yVapBFcndw_QPNnkfgEi1h60IW5Y6A=w903-h1204-no"
-            alt="cookie">
-        </a>
-        <a href="https://lh3.googleusercontent.com/d5zkuKgdLbgOWVafgksIoRzrU2yOtQ6iaJHbJC-eaENzLsYCaBkYhVZuurTa8vrsB7hkTro2Tkg70qfADrI-1RZuz4b4RiHTsXYZ0WvPtduw8JPSr6etEMM5CqISOnkvjdhHUpdMs-Ax2V4rveb_6CIm4ipO5bjPREIoUdKRQLx8M3k2eFArM8UjX_ghIIHtaHAigGY3ThpDsmV0WN1FDuryLZkyzlxyjIC90HRLSPKEp4886Ze1RRT5L6kkK7Mw6d_KvrWCQRHiIQob7vj-wefeeLZJANmW-TaClsE91fdpIa4KutePUYQppW9iO4gAMrxYQDTKpUVKcZXx8M5KfRjlS2ufdvmq2_D8vSCnVpgZRw-6npfxJxEW69KSqB1BZl-JGCgwisusbb3F3pOH_WTPMf-AIYuL_onT3dxxIPdGPk1a_pJ03A_xCxtcCHgzjFXi-7LhFxbSL5fY77nyXOlzQx1l7wADxt-xpqyVcwvrcX4ZSD_LtiDP7Lo8ClOKRETpxiTuWSgPdfk6WGWMFMXbdHoC1UYhr5L_J_m9Ek2imYN_hEREFtlpB_hxj19PlsrZ59_ZJCaj7SHHfugOf51tPcp75yKHm0Cxnk-hEuHmwoMN6dbslT03r08Iccx1ISsNdP8kwdaEm_PcMTU9t2MBqseZ8Xedfcjh3aWzglNcnf5_N5Mj6dRy_5hjPL8RlgjXsuNbwbswyw9-8m6uwk7sGiI3KwPv5M9qixYSPmbigOvpew=w903-h1204-no"
-          title="click to enlarge">
-          <img style="width: 100px;"
-            src="https://lh3.googleusercontent.com/d5zkuKgdLbgOWVafgksIoRzrU2yOtQ6iaJHbJC-eaENzLsYCaBkYhVZuurTa8vrsB7hkTro2Tkg70qfADrI-1RZuz4b4RiHTsXYZ0WvPtduw8JPSr6etEMM5CqISOnkvjdhHUpdMs-Ax2V4rveb_6CIm4ipO5bjPREIoUdKRQLx8M3k2eFArM8UjX_ghIIHtaHAigGY3ThpDsmV0WN1FDuryLZkyzlxyjIC90HRLSPKEp4886Ze1RRT5L6kkK7Mw6d_KvrWCQRHiIQob7vj-wefeeLZJANmW-TaClsE91fdpIa4KutePUYQppW9iO4gAMrxYQDTKpUVKcZXx8M5KfRjlS2ufdvmq2_D8vSCnVpgZRw-6npfxJxEW69KSqB1BZl-JGCgwisusbb3F3pOH_WTPMf-AIYuL_onT3dxxIPdGPk1a_pJ03A_xCxtcCHgzjFXi-7LhFxbSL5fY77nyXOlzQx1l7wADxt-xpqyVcwvrcX4ZSD_LtiDP7Lo8ClOKRETpxiTuWSgPdfk6WGWMFMXbdHoC1UYhr5L_J_m9Ek2imYN_hEREFtlpB_hxj19PlsrZ59_ZJCaj7SHHfugOf51tPcp75yKHm0Cxnk-hEuHmwoMN6dbslT03r08Iccx1ISsNdP8kwdaEm_PcMTU9t2MBqseZ8Xedfcjh3aWzglNcnf5_N5Mj6dRy_5hjPL8RlgjXsuNbwbswyw9-8m6uwk7sGiI3KwPv5M9qixYSPmbigOvpew=w903-h1204-no"
-            alt="cookie">
-        </a>
-        <a href="https://lh3.googleusercontent.com/8neIL-sOedct0tNWaFX5a8ZnNIMiwupfCd8devLKjDS0dluDwmGW5CxfCb8MGn3Cu1IwJI7LhEOmYrFl26HkppBG--KmrhLiUpQrCJ16Bf_N2OFkKKdNnfXlSKO3LiL-XmmwrORuWBs_7hQ8xOBGWU-inmw58R_Z6A2vpf9asS18eIPo5rEgDOgUnk5aLt0AFFX4L7x8lNE5M5Xc7usJYVfBcxRz_8qWT7A2Y0CCod2y7Pn8bhuAv6tE_HNRvC8uliALBim0zlETewAttQW8ORVdjyVeJao5x75scGPJTCmiv2rrLZrrd4WRUfU1XmGkeUWvqaAnrGQ6QL4mHSg_HMblrsNXat7rJmIpul5vLD740hi0uAcKwv2A3o7xtUQxUjHZUVgmhOWd9ubBjUltJ8Io2TlWEcNgaLU648AKHoz1Ccq7mRNZTVyObRzBXjwVXKybqvu_joQ0V_PDwN2Fl6X9oZSNACD83qSnyxQgFV_YusyEWT8xIupUabOe92TclSf7DfwsAHdQlCSNXk27ggraiIu0qDYmwiI1Dsb1ayjWuHCG752zeECf966DmxPeNw1nY0aTXu6j84OC8NBUlLd-9DpqhmKikjkUqqM_0XfhsmtrTqxV0bE67JiQUuCuic3k25fBf7V8-REkklHPnNMTqZFYiST21kjTrfje3a5dxsXWDtJb1v3fZNJNO_VLoDBTOzm-s0Za-1qkBAZLBDwcALD-fLfTEJ8Jx9RuS73vD-ctBw=w903-h1204-no"
-          title="click to enlarge">
-          <img style="width: 100px;"
-            src="https://lh3.googleusercontent.com/8neIL-sOedct0tNWaFX5a8ZnNIMiwupfCd8devLKjDS0dluDwmGW5CxfCb8MGn3Cu1IwJI7LhEOmYrFl26HkppBG--KmrhLiUpQrCJ16Bf_N2OFkKKdNnfXlSKO3LiL-XmmwrORuWBs_7hQ8xOBGWU-inmw58R_Z6A2vpf9asS18eIPo5rEgDOgUnk5aLt0AFFX4L7x8lNE5M5Xc7usJYVfBcxRz_8qWT7A2Y0CCod2y7Pn8bhuAv6tE_HNRvC8uliALBim0zlETewAttQW8ORVdjyVeJao5x75scGPJTCmiv2rrLZrrd4WRUfU1XmGkeUWvqaAnrGQ6QL4mHSg_HMblrsNXat7rJmIpul5vLD740hi0uAcKwv2A3o7xtUQxUjHZUVgmhOWd9ubBjUltJ8Io2TlWEcNgaLU648AKHoz1Ccq7mRNZTVyObRzBXjwVXKybqvu_joQ0V_PDwN2Fl6X9oZSNACD83qSnyxQgFV_YusyEWT8xIupUabOe92TclSf7DfwsAHdQlCSNXk27ggraiIu0qDYmwiI1Dsb1ayjWuHCG752zeECf966DmxPeNw1nY0aTXu6j84OC8NBUlLd-9DpqhmKikjkUqqM_0XfhsmtrTqxV0bE67JiQUuCuic3k25fBf7V8-REkklHPnNMTqZFYiST21kjTrfje3a5dxsXWDtJb1v3fZNJNO_VLoDBTOzm-s0Za-1qkBAZLBDwcALD-fLfTEJ8Jx9RuS73vD-ctBw=w903-h1204-no"
-            alt="cookie">
-        </a>
-        <a href="https://lh3.googleusercontent.com/n2ojRY1vvBaEkZWx9CY3_7JUeeZkEMaY-KBV0lExcD6iF_xXqYHtzVyX9T1ZxHTB8_GOvqo0_h-0bKevSVKNlBmRxvgK4QpMKzJhF_lKdJdQ-Uxw6D1sZNnCweqmep1eWPVhaOqI3TJaJ0atHjxMsBeBLzkiE3_t8-xcyZfFR7FEpzpvrmYr80vZ_-2DDS50X5ZIIjUo4vEc-tqFTy9GkbwxdDYuL2x5Nt1WNCCj89y_UTHpQJADFvqDJAEezxSYFpE9LD6WumlhbsYGkAY2a9T6rocsgbGblkG-kT-XVE67Blr7OdIl_cIx445xSLrBEqZgJt-BLnIHypMhugsDAaSXqzg5b_RH3mHU3tIEw0sdVzUHadrjup04tESwOvkFD8Wl07P7to-QakGcB5wOlTUXujvFcX35cscAzk1bR6-T0_cjC8vOec1QpriWpnUSXBtzWBB2iKARhS9Wqlsz2lGy5JYbQVnV74f0oqcriI5OvpqJl5RRDsET8y0ujR_ywdwhgyv6Q_E3eBLWMLGH9CpYA5RvpcbBS4THvsqWKKQwGTgGxetHTpt1H5R9nXhcfPaoGL-2uhCaEz2qZb2KrRGZhlMWHrxdf6eWoFqRMLYEnbKylKEv_Tt5WCUZRRU-OMEWNYeDoKdesKKKkt7vjQuz2sQh3AASQkfF4op2RLwgpQLNlv7Bmgt7YG6tmccvy5u1i757Ha_-DPnnIRy2JdrRlJxWe54mQyyp37x0QkZYYfOPTg=w903-h1204-no"
-          title="click to enlarge">
-          <img style="width: 100px;"
-            src="https://lh3.googleusercontent.com/n2ojRY1vvBaEkZWx9CY3_7JUeeZkEMaY-KBV0lExcD6iF_xXqYHtzVyX9T1ZxHTB8_GOvqo0_h-0bKevSVKNlBmRxvgK4QpMKzJhF_lKdJdQ-Uxw6D1sZNnCweqmep1eWPVhaOqI3TJaJ0atHjxMsBeBLzkiE3_t8-xcyZfFR7FEpzpvrmYr80vZ_-2DDS50X5ZIIjUo4vEc-tqFTy9GkbwxdDYuL2x5Nt1WNCCj89y_UTHpQJADFvqDJAEezxSYFpE9LD6WumlhbsYGkAY2a9T6rocsgbGblkG-kT-XVE67Blr7OdIl_cIx445xSLrBEqZgJt-BLnIHypMhugsDAaSXqzg5b_RH3mHU3tIEw0sdVzUHadrjup04tESwOvkFD8Wl07P7to-QakGcB5wOlTUXujvFcX35cscAzk1bR6-T0_cjC8vOec1QpriWpnUSXBtzWBB2iKARhS9Wqlsz2lGy5JYbQVnV74f0oqcriI5OvpqJl5RRDsET8y0ujR_ywdwhgyv6Q_E3eBLWMLGH9CpYA5RvpcbBS4THvsqWKKQwGTgGxetHTpt1H5R9nXhcfPaoGL-2uhCaEz2qZb2KrRGZhlMWHrxdf6eWoFqRMLYEnbKylKEv_Tt5WCUZRRU-OMEWNYeDoKdesKKKkt7vjQuz2sQh3AASQkfF4op2RLwgpQLNlv7Bmgt7YG6tmccvy5u1i757Ha_-DPnnIRy2JdrRlJxWe54mQyyp37x0QkZYYfOPTg=w903-h1204-no"
-            alt="cookie">
-        </a>
-        <a href="https://lh3.googleusercontent.com/H3CY5u84IsTJkhSb4Q7MY7XAVVWD8qlFQikn_NUjzzLfmvQN5rWPTb0aXYqnKHxQJe7rh29Ygnkh-oqus1QCADunkc5wDANsRpc9TXl7kJMSRKOR7_a7Mt21xc3c46FUC3S315p00H1iBQzecRBcjbVqQneAGn0Z4YVGEneuxokj4MXUVGwt8rTYyY6JDbGTXl_55lgkOu6Jona4fItoGbQIicc9mjE5UlsFYmsZDOJ6A9P6azBACK423Ub-C_HOcuYWsgLtU-gM5KEVY2WdQiacnCth5_wAp-1eMhYJFip535ZoAjER4vQBJXQgly8FI0p83_HLY6L5H93fGIbLthCX7My36hqMNeVX9-Zv9K3lTw1nTRsm9oeJ9s25ayVYpgES5WHNUHOElQtLW3_WlgN3kEcyy__CdwfpTVDClnDrDkzzGayEsiVBKGrgQjzQQtuSA9wQzztvwLI7bkpwoyG0nGqtWWaskBFszzDBTRrQL_cxAAgf3i05VhLpMVers9GSObBmC_R0MF-hQJV4w7MdITCpCa-vUXYJPF4PrROTPINVbQo90FjmMAazLd3GV-SmdUt_XqNukEEPjcgl4OQ0fQobU1SnRZQ0x5UosHcivmLkrn6PlgTY8ZSyyfE70ZSsj9c9JhxJ0lNfTOXeMUuQDoIyX-PEYYjA1wF6gSQXsasqaUOChh3Wjj3ZHQjfmncai_t82rQRbt5kH2cYhti7SvCqGC_EVJDmPR-1NSN6Ws-g4Q=w903-h1204-no"
-          title="click to enlarge">
-          <img style="width: 100px;"
-            src="https://lh3.googleusercontent.com/H3CY5u84IsTJkhSb4Q7MY7XAVVWD8qlFQikn_NUjzzLfmvQN5rWPTb0aXYqnKHxQJe7rh29Ygnkh-oqus1QCADunkc5wDANsRpc9TXl7kJMSRKOR7_a7Mt21xc3c46FUC3S315p00H1iBQzecRBcjbVqQneAGn0Z4YVGEneuxokj4MXUVGwt8rTYyY6JDbGTXl_55lgkOu6Jona4fItoGbQIicc9mjE5UlsFYmsZDOJ6A9P6azBACK423Ub-C_HOcuYWsgLtU-gM5KEVY2WdQiacnCth5_wAp-1eMhYJFip535ZoAjER4vQBJXQgly8FI0p83_HLY6L5H93fGIbLthCX7My36hqMNeVX9-Zv9K3lTw1nTRsm9oeJ9s25ayVYpgES5WHNUHOElQtLW3_WlgN3kEcyy__CdwfpTVDClnDrDkzzGayEsiVBKGrgQjzQQtuSA9wQzztvwLI7bkpwoyG0nGqtWWaskBFszzDBTRrQL_cxAAgf3i05VhLpMVers9GSObBmC_R0MF-hQJV4w7MdITCpCa-vUXYJPF4PrROTPINVbQo90FjmMAazLd3GV-SmdUt_XqNukEEPjcgl4OQ0fQobU1SnRZQ0x5UosHcivmLkrn6PlgTY8ZSyyfE70ZSsj9c9JhxJ0lNfTOXeMUuQDoIyX-PEYYjA1wF6gSQXsasqaUOChh3Wjj3ZHQjfmncai_t82rQRbt5kH2cYhti7SvCqGC_EVJDmPR-1NSN6Ws-g4Q=w903-h1204-no"
-            alt="cookie">
-        </a>
-        <a href="https://lh3.googleusercontent.com/Wg1c9BOnXsK7xdXMMmld5wB-VDNIlMz7QFgnNAHzl0i2eYwLkSRiLyZTrz7ajl9S6GA-QUt_aGLQyiS0UG0iDrqxlpxZHepClgDD1d7b_nayL7IQUtNBF7zTqOX_Hhb0b5am3HcXegwTaIEQDd8ObPhDOTfzsx-nevYeQ3y3m_cR4H9KoiQ6_K5K_ozX5DDyk-jkODHBE3S9f2W9-QOh2MAEDzhTfhx4OtPmfOrbf0DMoByeS9gfFjE7VjjKDzGKSRMJfrDY7AXhnjcTvOwBFlzq6vFxOuxOH1YXFaeMzsuCB_-jQzpg5NOhioOpEoGsjoOsNJBQ2ZLS-JqzjcCydRpVzRPqe6hw6ARQzoPGkilEXbRZucZoEG8iSHsPRN-H0XdKhmZ30K-y5rQK-Iif0gbKzfXiZ5ZG9b88GM_lHWi5xJ6LKYSv2Qf6PIDprb1v2IAm1xav3d9JNjcwn3FR470pKOw6CPzMNoTgcDKaJ5rAjTMEpilTeggrnxxpR4FPCnWJuOnm8gvx4ZHMLic5RFOhEWUIfbXvo6_sRgP0c5NvfNFR6-GLQI5AZE9Qaip7I9NLErpLDdO25zG48XXVrbXpANlkEQG2LmQbqNmZapuNSI-UB62pKDkxNB905-BCpUjHzDyAJaW0dLF5tLel0Vt9T-gY2LHUMzWGy5UqYLK7HKgymQetS64AXkucuOpj-SYVPuIRkRd3z64WOkMkzGz_e-nMtmkIF4FpI7xHPKCNxdvnQw=w903-h1204-no"
-          title="click to enlarge">
-          <img style="width: 100px;"
-            src="https://lh3.googleusercontent.com/Wg1c9BOnXsK7xdXMMmld5wB-VDNIlMz7QFgnNAHzl0i2eYwLkSRiLyZTrz7ajl9S6GA-QUt_aGLQyiS0UG0iDrqxlpxZHepClgDD1d7b_nayL7IQUtNBF7zTqOX_Hhb0b5am3HcXegwTaIEQDd8ObPhDOTfzsx-nevYeQ3y3m_cR4H9KoiQ6_K5K_ozX5DDyk-jkODHBE3S9f2W9-QOh2MAEDzhTfhx4OtPmfOrbf0DMoByeS9gfFjE7VjjKDzGKSRMJfrDY7AXhnjcTvOwBFlzq6vFxOuxOH1YXFaeMzsuCB_-jQzpg5NOhioOpEoGsjoOsNJBQ2ZLS-JqzjcCydRpVzRPqe6hw6ARQzoPGkilEXbRZucZoEG8iSHsPRN-H0XdKhmZ30K-y5rQK-Iif0gbKzfXiZ5ZG9b88GM_lHWi5xJ6LKYSv2Qf6PIDprb1v2IAm1xav3d9JNjcwn3FR470pKOw6CPzMNoTgcDKaJ5rAjTMEpilTeggrnxxpR4FPCnWJuOnm8gvx4ZHMLic5RFOhEWUIfbXvo6_sRgP0c5NvfNFR6-GLQI5AZE9Qaip7I9NLErpLDdO25zG48XXVrbXpANlkEQG2LmQbqNmZapuNSI-UB62pKDkxNB905-BCpUjHzDyAJaW0dLF5tLel0Vt9T-gY2LHUMzWGy5UqYLK7HKgymQetS64AXkucuOpj-SYVPuIRkRd3z64WOkMkzGz_e-nMtmkIF4FpI7xHPKCNxdvnQw=w903-h1204-no"
-            alt="cookie and me">
-        </a>
-        <a href="https://lh3.googleusercontent.com/bdD8YCOn5jGtnAySPdhUfKhHjpTiw0I0KH-ohbA1mv77UukT4AaLSRy3El1DM7PnDTvw3JXO5V3_RBWBVf2zvfwF5uQhCwgbMjgAvHmydX248Tib6zcOO1iZ9hF-rESqkv5FQbRappY91pZwl6-056H-KPYIPQVXVdrxOhwGTbxaTTe7NCX1k99sH28vDY40qLSYoTfFrUYC8KD_0nFP5u-3BGgm_Nvwk_c07xhVD0UU7j7_Cm_zF9r9AzwC5ra_7pCsR_x4y9A7Js2cfqBBqwg55We43-9bha8842qFTpql55F8IUYrOWglSiT8EzPB5KX3EcotRqOnZeOYBSbrbE4KSsjWCckpe1yp42E8QlHDWNs0_FCZZyf9VSNtzb9wQtfzhIE1biR4xCPoFwKyx8lgXkeyiSw9-juU5bQHRpMcEVi1SJsePDg34Fs4vy915DBhYeSTGPi3xn0UG7f0Yd_SeEnamKJPUpAM2DC_9uZhkMwf8qPix0P25GZJBn98nQc4xirQKvzzh-eJKgTvx6kosGlxWgf0z5KN01YcWDnujFTpkSTtICmflV5rS4_YE0FBoflAVKL6vjDMU556cEzHNfjEf0aNQtpjNNKWrse9wKUmZvZHO7ytGZ0Dx6fwyZUjhQzuawllgTFBCoVNFZNxvkCojz_UZOlEe7Q8-Oj8fOwd2RjKv_Ohc5sKM76TheVFCH71MziUgwoqKXUXKq2CehqHw5QqfoXN4O_PRR2FzJPllQ=w903-h1204-no"
-          title="click to enlarge">
-          <img style="width: 100px;"
-            src="https://lh3.googleusercontent.com/bdD8YCOn5jGtnAySPdhUfKhHjpTiw0I0KH-ohbA1mv77UukT4AaLSRy3El1DM7PnDTvw3JXO5V3_RBWBVf2zvfwF5uQhCwgbMjgAvHmydX248Tib6zcOO1iZ9hF-rESqkv5FQbRappY91pZwl6-056H-KPYIPQVXVdrxOhwGTbxaTTe7NCX1k99sH28vDY40qLSYoTfFrUYC8KD_0nFP5u-3BGgm_Nvwk_c07xhVD0UU7j7_Cm_zF9r9AzwC5ra_7pCsR_x4y9A7Js2cfqBBqwg55We43-9bha8842qFTpql55F8IUYrOWglSiT8EzPB5KX3EcotRqOnZeOYBSbrbE4KSsjWCckpe1yp42E8QlHDWNs0_FCZZyf9VSNtzb9wQtfzhIE1biR4xCPoFwKyx8lgXkeyiSw9-juU5bQHRpMcEVi1SJsePDg34Fs4vy915DBhYeSTGPi3xn0UG7f0Yd_SeEnamKJPUpAM2DC_9uZhkMwf8qPix0P25GZJBn98nQc4xirQKvzzh-eJKgTvx6kosGlxWgf0z5KN01YcWDnujFTpkSTtICmflV5rS4_YE0FBoflAVKL6vjDMU556cEzHNfjEf0aNQtpjNNKWrse9wKUmZvZHO7ytGZ0Dx6fwyZUjhQzuawllgTFBCoVNFZNxvkCojz_UZOlEe7Q8-Oj8fOwd2RjKv_Ohc5sKM76TheVFCH71MziUgwoqKXUXKq2CehqHw5QqfoXN4O_PRR2FzJPllQ=w903-h1204-no"
-            alt="cookie">
-        </a>
-        <a href="https://lh3.googleusercontent.com/TEy9OYBn5_jNkQhNaySbOfEEuQqnZHDfiuMiPkaViUkauiqoXSAll5yuTjjJa3LkHhVPvHgaDt85Io8iX6mQuHZuBrawfM_DkeBBFtOlDXWiqYozftEwt9Him0miJjylygUcDgNkRHkAHhpyokf-RpCQ_p8O24TXgLCvvdK9NNU-5gyjer2tEpuZVAfo0OxHS8aHykNKxuKH5bvGkQRPZP1sy8NRmYmK-b8P0GxrRrlW57GZtASOY8onc2dIbw_AK0vLttd6yH9ztvMZSMkBgEVuEMeq-Dy1kAsHhmKEFQABAXne69-q-UKFm2ampCWYWn4zY-5tFTVwK7cwwZXV5oWBImHE7icKw3tODPGGkbMPvPoGxjJE-KTJcCZ_GYGtgfNmQRlLWxg3s3cZnh306GWsn66QPNA1bQMtO2q4b4XyZW4WLBeYqnOr0Im32U2Q3TG9WssXuizfWXBfFq6IXmK3-1nMtWISesgc6J0MGkj8zN0gsF1FpEUmZGhsoWaF8Yya8SmlaTTo40Y4PZa-JLGkHe6BBkQqHDf-hHLFL-aCAgri1INlJ3WzspIaLGTkgS76TgPt63-BTUDngcnz1137nZGt4cft_ljzobB05CClJPdD7jjbKxoghsg0zpipDWByPw5V-L4QT_Yh-hhw0bbWN_BfBOzRm-BcElRwM8SAG6JnFBRSr91Xn2OfC1OFJ_3bC5lz_cea1XYWpFTAI7ccbXWu1M5rtZxCVsbyHi-P8xDS7Q=w903-h1204-no"
-          title="click to enlarge">
-          <img style="width: 100px;"
-            src="https://lh3.googleusercontent.com/TEy9OYBn5_jNkQhNaySbOfEEuQqnZHDfiuMiPkaViUkauiqoXSAll5yuTjjJa3LkHhVPvHgaDt85Io8iX6mQuHZuBrawfM_DkeBBFtOlDXWiqYozftEwt9Him0miJjylygUcDgNkRHkAHhpyokf-RpCQ_p8O24TXgLCvvdK9NNU-5gyjer2tEpuZVAfo0OxHS8aHykNKxuKH5bvGkQRPZP1sy8NRmYmK-b8P0GxrRrlW57GZtASOY8onc2dIbw_AK0vLttd6yH9ztvMZSMkBgEVuEMeq-Dy1kAsHhmKEFQABAXne69-q-UKFm2ampCWYWn4zY-5tFTVwK7cwwZXV5oWBImHE7icKw3tODPGGkbMPvPoGxjJE-KTJcCZ_GYGtgfNmQRlLWxg3s3cZnh306GWsn66QPNA1bQMtO2q4b4XyZW4WLBeYqnOr0Im32U2Q3TG9WssXuizfWXBfFq6IXmK3-1nMtWISesgc6J0MGkj8zN0gsF1FpEUmZGhsoWaF8Yya8SmlaTTo40Y4PZa-JLGkHe6BBkQqHDf-hHLFL-aCAgri1INlJ3WzspIaLGTkgS76TgPt63-BTUDngcnz1137nZGt4cft_ljzobB05CClJPdD7jjbKxoghsg0zpipDWByPw5V-L4QT_Yh-hhw0bbWN_BfBOzRm-BcElRwM8SAG6JnFBRSr91Xn2OfC1OFJ_3bC5lz_cea1XYWpFTAI7ccbXWu1M5rtZxCVsbyHi-P8xDS7Q=w903-h1204-no"
-            alt="cookie">
-        </a>
-        <a href="https://lh3.googleusercontent.com/71xz7AiLrkAkrcMI-Z6ENaE1fsxDMQ_QK_JjkW6qFzMdGGEtxaLU8jcpLtsPMbil_9c32oDT5IvtNz5MkxY5EvmJliN_25vOgppLrtBQRwdnczfds4X7W_FIxHEf2pOWPzSKwHk0jk8=w558-h743-no"
-        title="click to enlarge">
-        <img style="width: 100px;"
-          src="https://lh3.googleusercontent.com/71xz7AiLrkAkrcMI-Z6ENaE1fsxDMQ_QK_JjkW6qFzMdGGEtxaLU8jcpLtsPMbil_9c32oDT5IvtNz5MkxY5EvmJliN_25vOgppLrtBQRwdnczfds4X7W_FIxHEf2pOWPzSKwHk0jk8=w558-h743-no"
-          alt="cookie and me">
-        </a>
-        <a href="https://lh3.googleusercontent.com/KidoCYBKrXNAYR3bTTSVH1XjT6ChoUIj2AVFtb1PdBrZbJKHXf8oGQ0-Kf4PQphQKk8ygkj1pDTkkDThyi0dmtzifvG5U4zWQMowGb343cEpXW7W9-NTc8uTZwRhGDy_p9pjjocz3b92j0QlacaKga9uSBMS7HG6rcfIWeloT2kiEXEceOmnQahdoJoiAO-kU7zF4fBmaD7r_FpqaE3Q14u35MdPSzde7Llew9QPZkK6vFjKjIL3u-bGKT3ctv6-i2McTXYO2IVP17wUmGsOtuEA1gl3KnGeed-GE86njIuNUgQj2DrnT6o89ylndly5mfcEpCM_B8yp7svS3y7yxxaBaMpLpnFOUD_aHM9owqlUKLS3BryO-3jio6-kAvKEYz1j0zgdJJQjjJiYU4VErLbfuY3GZnfBazTCCwcJW9HWk5M11zg8u5peW7d3wosv7XkrX1u3ePy4OPEhyZ08LrPnbvLEjIn_GrA39FTi5NDOVhuYMbT6m0x5J1XSkbHU2TUgMprxJdC8SOKZm_VYP3umdUFFCjGY5uR772m_3egj9NiAdZ_olyDgy-hmsBT2CQLa49xPoHc7U-dm150B1Grq7RMmYIZeziApY5FJrDqVhZ6Wd8EHSv6RUcnHjntdH3PjKZxXISfzcgZaFSOZsDFo67CWEzr1AzDUja6DtCX3QmrGCxqDyKb4=w854-h1138-no"
-          title="click to enlarge">
-          <img style="width: 100px;"
-            src="https://lh3.googleusercontent.com/KidoCYBKrXNAYR3bTTSVH1XjT6ChoUIj2AVFtb1PdBrZbJKHXf8oGQ0-Kf4PQphQKk8ygkj1pDTkkDThyi0dmtzifvG5U4zWQMowGb343cEpXW7W9-NTc8uTZwRhGDy_p9pjjocz3b92j0QlacaKga9uSBMS7HG6rcfIWeloT2kiEXEceOmnQahdoJoiAO-kU7zF4fBmaD7r_FpqaE3Q14u35MdPSzde7Llew9QPZkK6vFjKjIL3u-bGKT3ctv6-i2McTXYO2IVP17wUmGsOtuEA1gl3KnGeed-GE86njIuNUgQj2DrnT6o89ylndly5mfcEpCM_B8yp7svS3y7yxxaBaMpLpnFOUD_aHM9owqlUKLS3BryO-3jio6-kAvKEYz1j0zgdJJQjjJiYU4VErLbfuY3GZnfBazTCCwcJW9HWk5M11zg8u5peW7d3wosv7XkrX1u3ePy4OPEhyZ08LrPnbvLEjIn_GrA39FTi5NDOVhuYMbT6m0x5J1XSkbHU2TUgMprxJdC8SOKZm_VYP3umdUFFCjGY5uR772m_3egj9NiAdZ_olyDgy-hmsBT2CQLa49xPoHc7U-dm150B1Grq7RMmYIZeziApY5FJrDqVhZ6Wd8EHSv6RUcnHjntdH3PjKZxXISfzcgZaFSOZsDFo67CWEzr1AzDUja6DtCX3QmrGCxqDyKb4=w854-h1138-no"
-            alt="cookie">
-        </a>
-        </div>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="2-photos.css" />
+  <link rel="stylesheet" href="1-portfolio.css" />
+  <title>TT - Portfolio</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar  navbar-expand-sm navbar-dark bg-dark">
+      <ul class="navbar-nav"> -->
+        <li class="nav-item active"> <a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="2-photos.html">Photos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Music</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Technology</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="content">
+    <header>
+      <h1>Tamotsu Tanabe</h1>
+    </header>
+    <div>
+      <h2>About me</h2>
+      <p>
+        My name is Tamotsu Tanabe. Born in Tokyo Japan, moved to Portland OR in late 20th century. I have 2 kids and a
+        dog.
+      </p>
     </div>
     <div>
-      <footer>
-        My footer here!
-      </footer>
+      <h3>Professional Experiences</h3>
+      <ul class="jobs">
+        <!-- title doesn't seems to be supported by HTML5 but easiest to display tool tips -->
+        <li>
+          <a class="job job1" href="https://sightlineapplications.com/" target="-blank" title="my current job">SightLine
+            Applications</a>
+          On board processing
+        </li>
+        <li>
+          <a class="job job2"
+            href="https://www.cognex.com/products/machine-vision/2d-machine-vision-systems/in-sight-5705-series"
+            target="-blank" title="my former job & product">Cognex In-Sight</a>
+          Machine Vision system
+        </li>
+        <li>
+          <a class="job job3" href="https://en.wikipedia.org/wiki/Digital_Equipment_Corporation" target="-blank"
+            title="The first company I worked for is now defunt!">Digital Equipment Corporation (DEC)</a>
+          The 2nd largest Computer Company at that time
+        </li>
+      </ul>
+      <br />
     </div>
-  </body>
+    <div>
+      <h3>Things I like</h3>
+      <ul class="likes">
+        <li>Traveling</li>
+        <li>
+          Playing the piano
+          <a href="https://www.youtube.com/watch?v=akAH1uee760">(YouTube)</a>
+        </li>
+        <li>
+          Taking classes
+          <a href="https://www.pdx.edu/">(Portland State University)</a>
+        </li>
+      </ul>
+      <br />
+    </div>
+
+  </div>
+  <div>
+    <footer>
+      My footer here!
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

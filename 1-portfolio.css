@@ -21,7 +21,7 @@ body::after {
   z-index: -1;
   background-size: cover;
 }
-nav li {
+/* nav li {
   list-style-type: none;
   margin: 5px;
   padding: 0;
@@ -36,7 +36,7 @@ nav a {
 }
 nav a:hover {
   background-color: #bbb;
-}
+} */
 h1,
 h2,
 h3 {

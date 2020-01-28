@@ -1,0 +1,21 @@
+/* * {
+  margin: 1px;
+}
+.col {
+
+  background-color: pink;
+}
+ */
+ .images {
+  display: flex;
+  flex-flow: wrap;
+  align-content: space-around;
+}
+
+.images a {
+  margin: 5px;
+}
+
+.images a:hover {
+  opacity: 0.6;
+}
