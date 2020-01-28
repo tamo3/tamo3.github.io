@@ -10,9 +10,8 @@ body {
   height: 100%;
 }
 .bg {
-  /* The image used */
-  /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg"); */
-  background-image: linear-gradient(rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9)),
+  /* Background iamge, with opacity */
+  background-image: linear-gradient(rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8)),
   url(https://lh3.googleusercontent.com/dZ3IwFAITgW_pkiqqpC9kbnxGcL7GnKK79yFQnDX8yJ759tzIwHwIpWpn6oCUPbiPJz52-JeOVcqC_zXkwDJ_n_qj2t--0mTlpuchT_29DqBQ0One2M2jQfLo8IKmr2bBT93xVh559o=w1034-h775-no);
   /* Full height */
   height: 100%;
@@ -23,16 +22,7 @@ body {
   background-size: cover;
 
 }
-.bg::after {
-  opacity: 0.2;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: fixed;
-  z-index: -1;
-  background-size: cover;
-}
+
 
 /* body::after {
   content: '';
