@@ -66,7 +66,7 @@ a:hover {
   padding: 20px;
 }
 
-.images {
+/* .images {
   display: flex;
   flex-flow: wrap;
   align-content: space-around;
@@ -78,7 +78,7 @@ a:hover {
 
 .images a:hover {
   opacity: 0.6;
-}
+} */
 
 footer {
   font-family: cursive;
