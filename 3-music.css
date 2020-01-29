@@ -1,3 +1,7 @@
+/* * {
+  box-sizing: border-box;
+} */
+
 
  body, html {
   height: 100%;
@@ -9,31 +13,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
- /* .images {
-  overflow: auto;
-  display: flex;
-  flex-flow: wrap;
-  align-content: space-around;
- }
-.images a {
-  margin: 5px;
+.video .col-5 {
+  margin: 10px;  
 }
-.images a:hover {
-  opacity: 0.6;
-}
-.images img {
-  width: 100px;
-  height: 100%;
-  display:block;
-  object-fit: cover;
-} */
-
-/* .video-row  iframe {
-  height: 400px;
-} */
-
-/* 
-.video iframe {
-  height: 300px;
-}  */
