@@ -10,7 +10,7 @@
   background-size: cover;
 }
 
- .images {
+ /* .images {
   overflow: auto;
   display: flex;
   flex-flow: wrap;
@@ -27,5 +27,13 @@
   height: 100%;
   display:block;
   object-fit: cover;
-}
+} */
 
+/* .video-row  iframe {
+  height: 400px;
+} */
+
+/* 
+.video iframe {
+  height: 300px;
+}  */
