@@ -3,7 +3,7 @@
   box-sizing: border-box;
 } */
 
-body {
+body, html {
   /* justify-content: center;
   align-items: center;
   color: black; */
@@ -12,7 +12,7 @@ body {
 .bg {
   /* Background iamge, with opacity */
   background-image: linear-gradient(rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8)),
-  url(https://lh3.googleusercontent.com/dZ3IwFAITgW_pkiqqpC9kbnxGcL7GnKK79yFQnDX8yJ759tzIwHwIpWpn6oCUPbiPJz52-JeOVcqC_zXkwDJ_n_qj2t--0mTlpuchT_29DqBQ0One2M2jQfLo8IKmr2bBT93xVh559o=w1034-h775-no);
+  url(IMG_7854.JPG);
   /* Full height */
   height: 100%;
 
@@ -20,7 +20,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 
@@ -94,7 +93,7 @@ a:hover {
 .images a:hover {
   opacity: 0.6;
 } */
-
+/* 
 footer {
   font-family: cursive;
   position: relative;
@@ -107,4 +106,4 @@ footer {
   border-top-width: 1px;
   border-top-style: solid;
   border-top-color: rgba(200, 200, 200, 0.5);
-}
+} */
