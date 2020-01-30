@@ -3,18 +3,17 @@
   box-sizing: border-box;
 } */
 
-body, html {
+body,
+html {
   height: 100%;
 }
 .bg {
-  background-image: linear-gradient(rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.7)), url(IMG_7854.JPG);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.7)), url(IMG_7854.JPG);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
 
 .jobs a {
   width: 270px;
@@ -30,3 +29,40 @@ body, html {
 a:hover {
   color: rgb(0, 96, 255);
 }
+/* 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.733);
+  opacity: 0.5;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+  border-radius: 10%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #c42e53;
+  color: white;
+} */
