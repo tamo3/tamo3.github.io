@@ -13,6 +13,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.video .col-5 {
+.video .col-5 { /* Couldn't place YouTube boxes nicely with col-6, so using -5 */
   margin: 10px;  
 }

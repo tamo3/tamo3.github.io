@@ -29,3 +29,7 @@
   object-fit: cover;
 }
 
+.cookie {
+   /* prevent photos overlapped by footer and unable to click on iPhone */
+   margin-bottom: 60px;
+}
