@@ -12,6 +12,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 .video .col-5 { /* Couldn't place YouTube boxes nicely with col-6, so using -5 */
   margin: 10px;  
