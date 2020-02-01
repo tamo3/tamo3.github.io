@@ -15,7 +15,8 @@
   background-attachment: fixed;
 }
 
-.projects {
-   /* prevent the last link overlapped by footer and unable to click on iPhone */
-   padding-bottom: 50px; 
+
+.jobs {
+  /* prevent the last link overlapped by footer and unable to click on iPhone */
+  padding-bottom: 70px; 
 }
